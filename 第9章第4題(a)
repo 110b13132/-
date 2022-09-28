@@ -1,0 +1,28 @@
+class CBox // 定義類別 CBox
+{
+private int length;
+private int width;
+private int height;
+
+public CBox(int l,int w,int h) // 定義建構元 CBox()
+{
+length=l;
+width=w;
+height=h;
+}
+public void show()
+{
+System.out.print("length="+length);
+System.out.print(", width="+width);
+System.out.println(", height="+height);
+}
+}
+
+ public class hw9_4a
+{
+public static void main(String args[])
+{
+ CBox box1=new CBox(5,10,8); // CBox()中要加入引數
+box1.show();
+ }
+ }
