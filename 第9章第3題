@@ -13,7 +13,7 @@ value=i;
 System.out.println("value="+value);
 }
 }
-public class hw9_3
+public class t9
 {
 public static void main(String args[])
 {
